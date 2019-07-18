@@ -26,3 +26,4 @@ function removeLastKitten(){
   let newArray=kitt.splice(kitt.length - 1,1)
   return newArray;
 }
+
