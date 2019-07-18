@@ -26,4 +26,9 @@ function removeLastKitten(){
   let newArray=kitt.splice(0,kitt.length - 1)
   return newArray;
 }
+function removeFirstKitten(){
+  let kitt=[...kittens]
+  let newArray=kitt.splice(1,kitt.length - 1)
+  return newArray;
+}
 
