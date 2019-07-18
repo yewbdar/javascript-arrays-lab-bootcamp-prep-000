@@ -22,7 +22,7 @@ function prependKitten(name){
   return newArray;
 }
 function removeLastKitten(){
-  let kittens=[...kittens]
-  let newArray=kittens.splice(-1,1)
+  let kitt=[...kittens]
+  let newArray=kitt.splice(-1,1)
   return newArray;
 }
