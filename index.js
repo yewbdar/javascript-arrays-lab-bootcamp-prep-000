@@ -4,3 +4,9 @@ var kittens = ['Milo','Otis','Garfield'] //define your array here
 function destructivelyAppendKitten(name){
   kittens.push(name);
 }
+function destructivelyPrependKitten(nmae){
+  kittens.unshift(name)
+}
+function destructivelyRemoveLastKitten(){
+  kittens.slice(kittens.length - kittens.length+1)
+}
