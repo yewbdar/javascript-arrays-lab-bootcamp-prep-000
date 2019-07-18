@@ -8,5 +8,5 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
 function destructivelyRemoveLastKitten(){
-  kittens.slice(kittens.length - kittens.length+1)
+  kittens.slice(-1)
 }
