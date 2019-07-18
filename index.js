@@ -21,3 +21,6 @@ function prependKitten(name){
   let newArray=[name,...kittens];
   return newArray;
 }
+function removeLastKitten(){
+  let newArray=kittens.slic
+}
